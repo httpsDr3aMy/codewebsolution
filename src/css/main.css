@@ -156,7 +156,7 @@ section:last-child {
   color: whitesmoke;
   z-index: 0;
   background: transparent;
-  align-self: end;
+  align-self: flex-end;
 }
 .home_content-box-button:hover {
   cursor: pointer;
@@ -210,7 +210,7 @@ section:last-child {
 .aboutme_content {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   max-width: 800px;
 }
 .aboutme_content-rightbox, .aboutme_content-leftbox {
@@ -219,7 +219,7 @@ section:last-child {
 }
 .aboutme_content-rightbox {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   flex-direction: column;
 }
 .aboutme_content-rightbox_heading {
@@ -239,19 +239,19 @@ section:last-child {
 }
 .aboutme_content-rightbox_welcome {
   font-size: 1.8rem;
-  text-align: end;
+  text-align: flex-end;
 }
 .aboutme_content-leftbox {
   height: 100%;
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .aboutme_content-leftbox_description {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   font-size: 1.2rem;
 }
 
@@ -270,7 +270,7 @@ section:last-child {
 }
 .skills_content--headingbox {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .skills_content-heading {
   font-size: 2.6rem;
@@ -552,7 +552,7 @@ section:last-child {
 }
 .contact_content form button {
   position: relative;
-  align-self: end;
+  align-self: flex-end;
   padding: 1em 2em;
   text-transform: uppercase;
   border: 2px solid whitesmoke;

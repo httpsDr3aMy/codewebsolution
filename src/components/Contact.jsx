@@ -1,6 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSpider } from '@fortawesome/free-solid-svg-icons'
 import Footer from './Footer'
 const Contact = () => {
   return (
