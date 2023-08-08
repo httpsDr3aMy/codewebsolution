@@ -239,7 +239,7 @@ section:last-child {
 }
 .aboutme_content-rightbox_welcome {
   font-size: 1.8rem;
-  text-align: flex-end;
+  text-align: right;
 }
 .aboutme_content-leftbox {
   height: 100%;
@@ -761,5 +761,31 @@ section:last-child {
 @media (max-width: 370px) {
   .projects_content-projectbox {
     width: 300px;
+  }
+}
+@media (max-height: 600px) {
+  .home_img {
+    width: 150px;
+  }
+  .home_img img {
+    width: 150px;
+  }
+  .home_content-heading-occupation {
+    font-size: 1.4rem;
+  }
+  .home_content-heading-main {
+    font-size: 1.6rem;
+  }
+  .home_content-heading-description {
+    font-size: 1.1rem;
+  }
+  .skills {
+    height: 200vh;
+  }
+  .projects {
+    height: 350vh;
+  }
+  .projects_content-projectbox {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -259,7 +259,7 @@ z-index: 0;
             }
             &_welcome{
                 font-size: 1.8rem;
-                text-align: flex-end;
+                text-align: right;
             }
         }
         &-leftbox{
@@ -809,5 +809,33 @@ z-index: 0;
 @media (max-width: 370px){
     .projects_content-projectbox{
         width: 300px;
+    }
+
+}
+
+@media (max-height: 600px){
+    .home_img{
+        width: 150px;
+        img{
+            width: 150px;
+        }
+    }
+    .home_content-heading-occupation{
+        font-size: 1.4rem;
+    }
+    .home_content-heading-main{
+        font-size: 1.6rem;
+    }
+    .home_content-heading-description{
+        font-size: 1.1rem;
+    }
+    .skills{
+        height: 200vh;
+    }
+    .projects{
+        height: 350vh;
+    }
+    .projects_content-projectbox{
+        width: 100%;
     }
 }
