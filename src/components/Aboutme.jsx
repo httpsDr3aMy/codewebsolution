@@ -10,7 +10,7 @@ const Aboutme = () => {
           </h3>
         </div>
         <div className="aboutme_content-leftbox" data-aos="zoom-in-up">
-          <p className="aboutme_content-leftbox_description">Masz dość nudnych stron internetowych? Witaj w świecie struktur internetowych, tworzonych przez utalentowanego 16-latka! Oferuję strony pełne kreatywności, świeżości i niestandardowych rozwiązań. Ożyw swoje strony dynamicznymi animacjami i nietypowymi układami.</p>
+          <p className="aboutme_content-leftbox_description">Jestem 16 letnim Frontend developerem, który skupia się na poszerzaniu swoich horyzontów oraz umiejętności. Chcę tworzyć innowacyjne rozwiązania, które usprawnią życie i przyczynią się do rozwoju społeczeństwa. Słowaw Colina Powella: "Ciężka praca jest fundamentem sukcesu." motywują mnie do ciężkiej, systematycznej pracy nad sobą. Wierzę, że połączenie wiedzy, pasji i cięzkiej pracy może zmienić marzenia w rzeczywistość</p>
         </div>
       </div>
     </section>

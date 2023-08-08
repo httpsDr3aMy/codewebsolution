@@ -732,7 +732,7 @@ section:last-child {
 }
 @media (max-width: 730px) {
   .skills {
-    height: 140vh;
+    height: 150vh;
   }
 }
 @media (max-width: 600px) {
@@ -750,12 +750,12 @@ section:last-child {
 }
 @media (max-width: 1190px) {
   .projects {
-    height: 140vh;
+    height: 150vh;
   }
 }
 @media (max-width: 820px) {
   .projects {
-    height: 240vh;
+    height: 250vh;
   }
 }
 @media (max-width: 370px) {
