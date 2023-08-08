@@ -355,6 +355,7 @@ z-index: 0;
         flex-wrap: wrap;
         align-items: center;
         gap: 2em;
+        max-width: 1600px;
         &-projectbox{
             &--homyz{
                 background: url(../assets/homyz.PNG);;
@@ -833,9 +834,104 @@ z-index: 0;
         height: 200vh;
     }
     .projects{
-        height: 350vh;
+        height: 320vh;
+        padding: 0;
+    }
+    .aboutme{
+        height: 120vh;
+    }
+    .contact{
+        height: 140vh;
+    }
+    .skills_content-wrapper_row{
+        gap: 1em;
+    }
+}
+
+@media (max-width: 310px){
+    .projects{
+        height: 300vh;
+        padding: 0;
     }
     .projects_content-projectbox{
+        width: 90%;
+    }
+    .projects_content{
         width: 100%;
+    }
+}
+
+@media (min-width: 1920px){
+    .navbar_menu-redirect{
+        font-size: 3rem;
+    }
+    .navbar_logo{
+        font-size: 4.2rem;
+    }
+    .home_img{
+        width: 400px;
+        img{
+            width: 100%;
+        }
+    }
+    .home_content-heading{
+        &-name{
+            font-size: 2.1rem;
+        }
+        &-main{
+            font-size: 6.2rem;
+        }
+        &-occupation{
+            font-size: 4.4rem;
+        }
+        &-description{
+            font-size: 2.6rem;
+        }
+    }
+    .navbar{
+        padding: 6em 7em;
+    }
+    .home_content-box-button{
+        font-size: 2.4rem;
+    }
+    .home_content-box{
+        margin-top: 2em;
+    }
+    .aboutme_content{
+        max-width: 1200px;
+    }
+    .aboutme_content-leftbox_description{
+        font-size: 2.2rem;
+    }
+    .aboutme_content-rightbox_heading{
+        font-size: 5.6rem;
+    }
+    .aboutme_content-rightbox_welcome{
+        font-size: 3.2rem;
+    }
+    .skills_content-heading{
+        font-size: 5.6rem;
+    }
+    .projects_headingbox-heading{
+        font-size: 5.6rem;
+    }
+    .contact_headingbox-heading{
+        font-size: 5.6rem;
+    }
+    .contact_description{
+        font-size: 2.2rem;
+    }
+    .contact_content{
+        width: 900px;
+        form{
+            width: 100%;
+            input, textarea{
+                width: 100%;
+                font-size: 2.2rem;
+            }
+            button{
+                font-size: 2.2rem;
+            }
+        }
     }
 }
