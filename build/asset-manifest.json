@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7c0a18b.css",
+    "main.css": "/static/css/main.3d4c8bc8.css",
     "main.js": "/static/js/main.d7c832f7.js",
     "static/media/tropicalparadisepage.PNG": "/static/media/tropicalparadisepage.b202222e20c6ee5a3864.PNG",
     "static/media/galaxy travel.PNG": "/static/media/galaxy travel.33eb8a058d4a16e8944a.PNG",
@@ -18,11 +18,11 @@
     "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.e7c0a18b.css.map": "/static/css/main.e7c0a18b.css.map",
+    "main.3d4c8bc8.css.map": "/static/css/main.3d4c8bc8.css.map",
     "main.d7c832f7.js.map": "/static/js/main.d7c832f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c0a18b.css",
+    "static/css/main.3d4c8bc8.css",
     "static/js/main.d7c832f7.js"
   ]
 }
